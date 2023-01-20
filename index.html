@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASK18</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="tas18.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white position-relative">
+    <div class="container-fluid">
+
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item py-3 dd position-relative">
+            <a class="nav-link text-dark fw-bold hcyan" aria-current="page" href="#">Home<i class="fa-solid fa-angle-down ps-1"></i></a>
+            <div class="dropdwn bg-white rounded p-3 position-absolute">
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">HOME 1</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">HOME 2</a></p>
+
+            </div>
+          </li>
+          <li class="nav-item py-3 dd position-relative">
+            <a class="nav-link text-dark fw-bold hcyan" href="#">Pages<i class="fa-solid fa-angle-down ps-1"></i></a>
+            <div class="dropdwn bg-white rounded p-3 position-absolute">
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark  text-decoration-none nl fw-bold">ABOUT US</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">OUR SERVICES</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">FAQS</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">BOOKING</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">404 ERROR</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">CALENDAR</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">TEAM</a></p>
+
+            </div>
+          </li>
+          <li class="nav-item py-3 dd position-relative">
+            <a class="nav-link text-dark fw-bold hcyan" href="#">Our Menu<i class="fa-solid fa-angle-down ps-1"></i></a>
+            <div class="dropdwn bg-white rounded p-3 position-absolute">
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">MENU STYLE 1</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">MENU STYLE 2</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">MENU STYLE 3</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">MENU STYLE 4</a></p>
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <a class="navbar-brand position-relative" href="#"><img src="logo.png" class="position-absolute logo"
+          width="170px" height="142px"></a>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item py-3 dd position-relative">
+            <a class="nav-link text-dark fw-bold hcyan" aria-current="page" href="#">Blog<i class="fa-solid fa-angle-down ps-1"></i></a>
+            <div class="dropdwn1 bg-white rounded p-3 position-absolute">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <h4 class="fw-bold mb-3">Blog Grid</h4>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">GRID 2</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">GRID 2 SIDEBAR</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">GRID 2 SIDEBAR LEFT</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">GRID 3</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <h4 class="fw-bold mb-3">Blog Half Image</h4>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">HALF IMAGE</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">HALF IMAGE SIDEBAR</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">HALF IMAGE SIDEBAR LEFT</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <h4 class="fw-bold mb-3">Blog Large Image</h4>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">LARGE IMAGE </a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">LARGE IMAGE SIDEBAR</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">LARGE IMAGE SIDEBAR LEFT</a></p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                  <h4 class="fw-bold mb-3">Blog Details</h4>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">SINGLE</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">SINGLE SIDEBAR</a></p>
+                  <p><a href="" class="text-dark text-decoration-none hcyan">SINGLE SIDEBAR LEFT</a></p>
+                </div>
+              </div>
+              
+
+            </div>
+          </li>
+          <li class="nav-item py-3 dd position-relative">
+            <a class="nav-link text-dark fw-bold hcyan" href="#">Shop<i class="fa-solid fa-angle-down ps-1"></i></a>
+            <div class="dropdwn bg-white rounded p-3 position-absolute">
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">SHOP</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">SHOP SIDEBAR</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">PRODUCT DETAILS</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">CART</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">WISHLIST</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">CHECKOUT</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">LOGIN</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">REGISTER</a></p>
+
+            </div>
+          </li>
+          <li class="nav-item py-3 dd position-relative">
+            <a class="nav-link text-dark fw-bold hcyan" href="#">Contact Us<i class="fa-solid fa-angle-down ps-1"></i></a>
+            <div class="dropdwn bg-white rounded p-3 position-absolute">
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">CONTACT US 1</a></p>
+              <p class="nlink"><span class="nbef fcyan ">--</span><a href="" class="text-dark text-decoration-none nl fw-bold">CONTACT US 2</a></p>
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    </div>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <div class="slide1 text-center text-white px0">
+          <h4 class="fw-bolder pt-5">Cakes & Bakery</h4>
+          <h1 class="mainheading fw-bolder">Welcome To Bakery</h1>
+          <h3 class="pb-5">The Best Cakes in New York</h3>
+          <button class="p-3 rounded btnn px-5 shadow my-2">About Us</button>
+          <button class="p-3 rounded btnn btnnw px-5 shadow my-2">Subscribe now</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="slide2 text-center  text-white px0">
+          <h4 class="fw-bolder pt-5">Cakes & Bakery</h4>
+          <h1 class="mainheading fw-bolder">Occasion Cakes</h1>
+          <h3 class="pb-5">The Best Coffee in China</h3>
+          <button class="p-3 rounded btnn px-5 shadow my-2">About Us</button>
+          <button class="p-3 rounded btnn btnnw px-5 shadow my-2">Subscribe now</button>
+
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon fw-bolder" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon fw-bolder" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container-fluid bg1 text-center lh-lg">
+    <div class="container-fluid position-relative heightt d-flex justify-content-center">
+      <div class="container  py-5   position-absolute heighttt">
+        <div class="row pb-5 ">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3">
+            <div class="macarons text-white   rounded cardd">
+              <div class="tback pb-5 rounded-bottom">
+                <h2>Macarons</h2>
+                <p>Lorem Ipsum is simply</p>
+                <button class="p-3 rounded btnn px-5 shadow">More details</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3">
+            <div class="smallcakes text-white   rounded cardd">
+              <div class="tback pb-5 rounded-bottom">
+                <h2>Small Cakes</h2>
+                <p>Lorem Ipsum is simply</p>
+                <button class="p-3 rounded btnn px-5 shadow">More details</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3">
+            <div class="occasion text-white rounded cardd">
+              <div class="tback pb-5 rounded-bottom">
+                <h2>Occasion Cakes</h2>
+                <p>Lorem Ipsum is simply</p>
+                <button class="p-3 rounded btnn px-5 shadow">More details</button>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 text-center p-3">
+            <div class="cupcakes text-white   rounded cardd">
+              <div class="tback pb-5 rounded-bottom">
+                <h2>Cupcakes</h2>
+                <p>Lorem Ipsum is simply</p>
+                <button class="p-3 rounded btnn px-5 shadow">More details</button>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+    <img src="cupcake.jpg">
+    <h2 class="py-4 fcyan">It’s a party and you’re invited</h2>
+    <h1 class="fw-normal pb-4">Join DexignZone Bakery™ to earn Gold level benefits like free Cakes and food, get free
+      refills, pay and order with your phone, and more.
+
+    </h1>
+    <h4 class="pb-5">Exclusive deals on Cakes, delivered straight to your inbox Join Now</h4>
+
+  </div>
+
+  <div class="container-fluid bg2 position-relative pt-2 px-0">
+    
+    <div class="container py-3 text-white">
+      <h1 class="text-center text-white pt-5">What Do We Offer For You?</h1>
+    <h5 class="text-center text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s</h5>
+      <div class="row py-3">
+        <div class="col-lg-4 col-md-12 col-sm-12 p-4">
+          <img src="dessert.jpg" class="rounded w-100">
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-4 ps-5 mt-5">
+          <div class="row my-3">
+            <div class="col-3 p-1">
+              <img src="c1.png">
+
+            </div>
+            <div class="col-9">
+              <h4>Pancakes</h4>
+              <p>Lorem Ipsum is dummy</p>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-3 p-1">
+              <img src="c2.png">
+
+            </div>
+            <div class="col-9">
+              <h4>Pumpkin cakes</h4>
+              <p>Lorem Ipsum is dummy</p>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-3 p-1">
+              <img src="c3.png">
+
+            </div>
+            <div class="col-9">
+              <h4>Cake Services</h4>
+              <p>Lorem Ipsum is dummy</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 p-4 ps-5 mt-5">
+          <div class="row my-3">
+            <div class="col-3 p-1">
+              <img src="c4.png">
+
+            </div>
+            <div class="col-9">
+              <h4>Muffin</h4>
+              <p>Lorem Ipsum is dummy</p>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-3 p-1">
+              <img src="c5.png">
+
+            </div>
+            <div class="col-9">
+              <h4>Pumpkin Cupcakes</h4>
+              <p>Lorem Ipsum is dummy</p>
+            </div>
+          </div>
+          <div class="row my-3">
+            <div class="col-3 p-1">
+              <img src="c6.png">
+
+            </div>
+            <div class="col-9">
+              <h4>Birthday Cake</h4>
+              <p>Lorem Ipsum is dummy</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid curve">
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid bg3 position-relative">
+    <div class="container py-5">
+      <div class="row px-5 px0">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h1 class="pt-4 pb-2">Sale And Delivery Points</h1>
+          <h5 class="text-secondary pb-5">Where to buy our high quality Cake</h5>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+          <p>First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or
+            for the past 15 years in front of the Lorem Ipsum is simply Bakery dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+          <button class="p-3 rounded btnn px-5 shadow">Get Started</button>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 py-4">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item my-3 border-0">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button rounded btna shadow fs-4 fw-bold " type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  <i class="fa-solid fa-cart-plus pe-3"></i>Where Buy our Cake?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-white shadow">
+                  <img src="map.png" class="w-100">
+                  <div class="row ">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Germany (26)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">England (76)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Russia (17)
+                        </a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Denmark (23)</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">France (19)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Canada (61)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Africa (92)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Finland (41)</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Italy (54)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Brazil (46)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">USA (124)</a></p>
+                      <p><i class="fa-solid fa-check pe-3 fcyan"></i><a href=""
+                          class="text-dark text-decoration-none">Asia (101)</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-3 border-0">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed rounded btna shadow fs-4 fw-bold" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                  aria-controls="collapseTwo">
+                  <i class="fa-solid fa-id-badge pe-3"></i>Become Our Dealer
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-white shadow">
+                  <img src="accord.jpg" style="float:left;" class="rounded me-3 mb-3 w-50">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum
+                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five
+                    centuries,</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item my-3 border-0">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed rounded btna shadow fs-4 fw-bold" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                  aria-controls="collapseThree">
+                  <i class="fa-solid fa-tags pe-3"></i>Get your Discount
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body bg-white shadow">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                  <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                  <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid px-4 py-5 bg1">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+        <div class="bcard rounded position-relative shadow">
+          <img src="ca1.jpg" class="w-100 rounded scaleimage">
+          <div class="position-absolute veg w-100 rounded-bottom">
+            <h2 class="text-white ps-3 tback pbc">Vegan Pie </h2>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+        <div class="bcard rounded position-relative shadow">
+          <img src="ca2.jpg" class="w-100 rounded scaleimage">
+          <div class="position-absolute veg w-100 rounded-bottom">
+            <h2 class="text-white ps-3 tback pbc">Lemon Cake</h2>
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+        <div class="bcard rounded position-relative shadow">
+          <img src="ca3.jpg" class="w-100 rounded scaleimage">
+          <div class="position-absolute veg w-100 rounded-bottom">
+            <h2 class="text-white ps-3 tback pbc">Wedding Cake</h2>
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 py-3">
+        <div class="bcard rounded position-relative shadow">
+          <img src="ca4.jpg" class="w-100 rounded scaleimage">
+          <div class="position-absolute veg w-100 rounded-bottom">
+            <h2 class="text-white ps-3 tback pbc">Fruit Cake </h2>
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+    <div class="text-center py-5">
+    <img src="cupcake.jpg">
+    <h2 class="py-4  ">We Are Professional at Our Skills</h2>
+    <h4 class="fw-normal pb-4 ">More than 2000+ customers trusted us
+
+    </h4>
+    <div class="container py-4">
+      <div class="row pb-5">
+        <div class="col-lg-3 col-md-12 col-sm-12 py-3">
+          <h1 class="mainheading fcyan fw-bolder">53+</h1>
+          <p>Years of Experience</p>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 py-3">
+          <h1 class="mainheading fcyan fw-bolder">102</h1>
+          <p>Awards Wins</p>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 py-3">
+          <h1 class="mainheading fcyan fw-bolder">36k</h1>
+          <p>Happy Clients</p>
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 py-3">
+          <h1 class="mainheading fcyan fw-bolder">99</h1>
+          <p>Perfect Products</p>
+        </div>
+
+
+      </div>
+      <div class="row ">
+        <div class="col-lg-6 col-md-12 col-sm-12 pe-0 ps-0">
+          <img src="col6.jpg" class="w-100 rounded-start shadow">
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 ps-0 bgcyan text-white p-5 text-center px-5 px0 rounded-end shadow">
+          <h2>Limited Time Offer</h2>
+          <h5>Wedding Cake Sale!</h5>
+          <img src="c1.png" class="py-4">
+          <p class="px-5 px0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          <button class="p-3 rounded btnn  px-5 shadow">GET NOW</button>
+
+          
+
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-2 col-md-4 col-sm-12 p-2 ">
+          <div class="border rounded bg-white p-2 position-relative cakeo">
+            <img src="b1.jpg" class="w-100 rot">
+            <div class="p-2 rounded btnn cakei position-absolute px-4">Bakery</div>
+          </div>
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 p-2 ">
+          <div class="border rounded bg-white p-2 position-relative cakeo">
+            <img src="b2.jpg" class="w-100 rot" >
+            <div class="p-2 rounded btnn cakei position-absolute px-4">Bakery</div>
+          </div>
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 p-2 ">
+          <div class="border rounded bg-white p-2 position-relative cakeo">
+            <img src="b3.jpg"  class="w-100 rot">
+            <div class="p-2 rounded btnn cakei position-absolute px-4">Bakery</div>
+          </div>
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 p-2 ">
+          <div class="border rounded bg-white p-2 position-relative cakeo">
+            <img src="b4.jpg" class="w-100 rot" >
+            <div class="p-2 rounded btnn cakei position-absolute px-4">Bakery</div>
+          </div>
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 p-2 ">
+          <div class="border rounded bg-white p-2 position-relative cakeo">
+            <img src="b5.jpg" class="w-100 rot" >
+            <div class="p-2 rounded btnn cakei position-absolute px-4">Bakery</div>
+          </div>
+          
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 p-2 ">
+          <div class="border rounded bg-white p-2 position-relative cakeo">
+            <img src="b6.jpg" class="w-100 rot" >
+            <div class="p-2 rounded btnn cakei position-absolute px-4">Bakery</div>
+          </div>
+          
+        </div>
+      </div>
+      <img src="cupcake.jpg">
+    <h2 class="py-4 pt-5  ">From The Blog</h2>
+    <h4 class="fw-normal pb-4 ">Latest news and updates
+
+    </h4>
+    <div class="row py-4 text-start">
+      <div class="col-lg-4 col-md-12 col-sm-12 py-2">
+        <div class="rounded shadow bg-white">
+        <img src="picc1.jpg" class="w-100 rounded-top">
+        <h3 class="py-3 t ps-3"><a href="" class="ha text-decoration-none text-dark">Understand The Background Of Bakery Now.</a></h3>
+        <i class="fa-solid fa-folder-open fcyan ps-3 pe-3 text-start pb-3"></i><a href="" class="text-dark text-decoration-none pb-3 ">Cake, Biscuits</a>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 py-2">
+        <div class="rounded shadow bg-white">
+        <img src="picc2.jpg" class="w-100 rounded-top">
+        <h3 class="py-3 t ps-3"><a href="" class="ha text-decoration-none text-dark">Seven Reliable Sources To Learn About Bakery.</a></h3>
+        <i class="fa-solid fa-folder-open fcyan ps-3 pe-3 text-start pb-3"></i><a href="" class="text-dark text-decoration-none pb-3 ">Cake, Biscuits</a>
+        </div>
+        
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 py-2">
+        <div class="rounded shadow bg-white">
+        <img src="picc3.jpg" class="w-100 rounded-top">
+        <h3 class="py-3 t ps-3"><a href="" class="ha text-decoration-none text-dark">Ten Places That You Can Find Bakery.</a></h3>
+        <i class="fa-solid fa-folder-open fcyan ps-3 pe-3 text-start pb-3"></i><a href="" class="text-dark text-decoration-none pb-3 ">Cake, Biscuits</a>
+        </div>
+        
+      </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+  </div>
+  <div class="container-fluid contact text-white px-0">
+    <div class="container-fluid curvec">
+
+    </div>
+    <div class="container py-2">
+      <div class="row py-5">
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <h3>Contact Us</h3><hr>
+          <div class="row py-2 contacti pt-3">
+            <div class="col-2  text-center ">
+              <div class="contacticon bg-white fcyan py-1">
+              <i class="fa-solid fa-location-dot "></i>
+              </div>
+
+            </div>
+            <div class="col-10">
+              <h6>Marmora City, Vietnam</h6>
+              
+            </div>
+          </div>
+          <div class="row py-2 contacti">
+            <div class="col-2  text-center ">
+              <div class="contacticon bg-white fcyan py-1">
+              <i class="fa-solid fa-phone "></i>
+              </div>
+
+            </div>
+            <div class="col-10">
+              <h6>0800-123456</h6>
+              
+            </div>
+          </div>
+          <div class="row py-2 contacti">
+            <div class="col-2  text-center ">
+              <div class="contacticon bg-white fcyan py-1">
+              <i class="fa-solid fa-mobile-screen "></i>
+              </div>
+
+            </div>
+            <div class="col-10">
+              <h6>
+                (+91) 0800-123456</h6>
+              
+            </div>
+          </div>
+          <div class="row py-2 contacti">
+            <div class="col-2  text-center ">
+              <div class="contacticon bg-white fcyan py-1">
+              <i class="fa-solid fa-envelope "></i>
+              </div>
+
+            </div>
+            <div class="col-10">
+              <h6>Info@Example.Com</h6>
+              
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <h3>Recent Post</h3><hr>
+          <div class="row py-2">
+            <div class="col-4">
+              <img src="ca4.jpg" class="w-100 rounded">
+
+            </div>
+            <div class="col-8">
+              <h5><a href="" class="fcyan text-decoration-none">The Background Of Bakery Now</a></h5>
+              <i class="fa-regular fa-clock pe-2 fcyan"></i><span>March 25, 2020</span>
+            </div>
+          
+        </div><hr>
+        <div class="row py-2">
+          <div class="col-4">
+            <img src="ca4.jpg" class="w-100 rounded">
+
+          </div>
+          <div class="col-8">
+            <h5><a href="" class="fcyan text-decoration-none">How Bakery Can Increase Your Profit</a></h5>
+            <i class="fa-regular fa-clock pe-2 fcyan"></i><span>March 25, 2020</span>
+          </div>
+        
+      </div>
+      </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <h3>Quick Links</h3><hr>
+          <div class="row mt-4">
+            <div class="col-6">
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Home</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Our Menu</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Blog</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Contact</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Calendar</a></p>
+
+            </div>
+            <div class="col-6">
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">About</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">FAQ</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Shop</a></p>
+              <p><i class="fa-solid fa-angle-right pe-3"></i><a href="" class="text-white text-decoration-none fw-bold">Team</a></p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 p-3">
+          <h3>Opening Hours</h3><hr>
+          <h6 class="mb-5 mt-4">Our support available to help you 24 hours a day, seven days a week.</h6>
+          <div class="row mb-4">
+            <div class="col-6 text-start">
+              <h6>Monday to Friday</h6>
+
+            </div>
+            <div class="col-6 text-end">
+              <h6>7AM - 5PM</h6>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-6 text-start">
+              <h6>Saturday</h6>
+
+            </div>
+            <div class="col-6 text-end">
+              <h6>10AM - 5PM</h6>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-6 text-start">
+              <h6>Sunday</h6>
+
+            </div>
+            <div class="col-6 text-end">
+              <h6>Closed</h6>
+            </div>
+          </div>
+          
+          
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="container-fluid bgcyan text-white">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 text-start">
+          <p class="mb-0">Copyright © 2021 DexignZone. all rights reserved.</p>
+
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 text-end">
+          <p class="mb-0"><a href="" class="text-white text-decoration-none px-2 border-end">About Us</a><a href="" class="px-2 text-white text-decoration-none">FAQ</a></p>
+          
+        </div>
+
+
+      </div>
+      
+    </div>
+
+
+  </div>
+
+  
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

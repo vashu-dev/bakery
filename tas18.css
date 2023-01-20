@@ -1,0 +1,287 @@
+.logo {
+    top: -39px;
+    left: -81px;
+    z-index: 5;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .logo {
+        top: -29px !important;
+        left: 90px !important;
+        height: 100px !important;
+        width: 120px !important;
+    }
+    .px0 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .heightt {
+        height: 2046px !important;
+    }
+    .heighttt {
+        top: -120px !important;
+    }
+    .dd:hover .dropdwn1 {
+        display: none!important;
+    }
+}
+.dd:hover .dropdwn {
+    display: block;
+}
+.dd:hover .dropdwn1 {
+    display: block;
+
+}
+.dropdwn {
+    display: none;
+    z-index: 5;
+    width: 250%;
+    border: 2px solid #5fcac7;
+}
+.dropdwn1 {
+    display: none;
+    z-index: 5;
+    width: 1600%;
+    left: -765px;
+    border: 2px solid #5fcac7;
+}
+.hcyan:hover {
+    color: #5fcac7 !important;
+}
+.nbef {
+    display: none;
+    
+}
+.nlink:hover .nbef {
+    display: inline;
+}
+.nl {
+    transition-property: padding-left;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.nlink:hover .nl {
+    padding-left: 15px;
+    color: #5fcac7 !important;
+}
+.slide1 {
+    background-image: url("slide1.jpg");
+    background-size: cover;
+    height: 700px;
+    padding: 140px;
+}
+.slide2 {
+    background-image: url("slide2.jpg");
+    background-size: cover;
+    height: 700px;
+    padding:140px;
+}
+.navbar::after {
+    content: "";
+    background-image: url("curves.png");
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+    height: 8px;
+    background-size: 80px;
+    background-position: bottom;
+    left: 0;
+    z-index: 4;
+}
+.mainheading {
+    font-size: 72px;
+}
+.macarons {
+    background-image: url("pic1.jpg");
+    background-size: cover;
+}
+.smallcakes {
+    background-image: url("pic2.jpg");
+    background-size: cover;
+}
+.occasion {
+    background-image: url("pic3.jpg");
+    background-size: cover;
+}
+.cupcakes {
+    background-image: url("pic4.jpg");
+    background-size: cover;
+}
+.bg1 {
+    background-image: url("bg1.jpg");
+    background-size: contain;
+}
+.bg1::after {
+    content: "";
+    background-image: url("curves.png");
+    position: absolute;
+   
+    width: 100%;
+    height: 8px;
+    background-size: 80px;
+    background-position: bottom;
+    left: 0;
+    z-index: 4;
+}
+.curve {
+    height: 9px;
+    background-image: url("curves.png");
+    background-size: 80px;
+    transform: rotate(180deg);
+
+}
+.curvec {
+    height: 8px;
+    background-image: url("curves.png");
+    background-size: 80px;
+
+}
+
+
+.cardd:hover {
+    transform: rotate(-5deg) scale(1.1);
+    position:relative;
+    z-index: 2;
+    
+}
+.cardd {
+    height: 472px;
+    padding-top: 300px !important;
+    transform: rotate(0deg);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.tback {
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.003),rgba(0, 0, 0, 0.463));
+    padding-bottom: 15px !important;
+}
+.heightt {
+    height: 500px;
+}
+.heighttt {
+    top: -145px;
+}
+.fcyan {
+    color:#5fcac7 !important;
+}
+.bgcyan {
+    background-color: #5fcac7;
+}
+.bg2 {
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg3 {
+    background-image: url("bg3.jpg");
+    background-size: cover;
+}
+.btna {
+    background-color: #5fcac7;
+    color: white;
+    border-color: #5fcac7;
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color:#5fcac7;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+button:not(.collapsed)::after {
+    color: white;
+}
+.btnn {
+    background-image: linear-gradient(to bottom right, #0cfcf5, #07788f );
+    color: white;
+    border: none;
+
+}
+.btnn:hover {
+    background-image: linear-gradient(to bottom right, #07788f , #0cfcf5 );
+
+    
+}
+.btnnw {
+    background-image: none;
+    color: black;
+}
+
+.btnnw:hover {
+    background-image: linear-gradient(to bottom right, #0cfcf5, #07788f );
+    color: white;
+
+}
+.veg {
+    bottom: -8px;
+}
+.pbc {
+    padding-bottom: 30px !important;
+}
+.scaleimage {
+    transform: scale(1.2);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+.scaleimage:hover {
+    transform: scale(1);
+}
+.bcard {
+    overflow: hidden;
+}
+.cakei {
+    top: 50px;
+    left: 54px;
+    transform: translate(0px, 0px);
+    /* display: none; */
+    transition-property: transform opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
+    opacity: 0;
+}
+
+.cakeo:hover .cakei{
+    transform: translate(0px, -80px);
+    display: block;
+   
+    opacity: 1;
+    
+
+}
+.rot {
+    transition-property: transform ;
+    transform: rotateY(0deg);
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+.rot:hover {
+    transform: rotateY(720deg);
+}
+.ha:hover {
+    color: #5fcac7 !important;
+}
+.contact {
+    background-image: url("slide1.jpg");
+    background-size: cover;
+    
+}
+.contacticon {
+    clip-path: circle(50% at 50% 50%);
+    height: 32px;
+    width: 32px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.contacti:hover .contacticon {
+    background-color: #5fcac7 !important;
+    color: white !important;
+}
+
+ 
+
+
